@@ -1,0 +1,3 @@
+# React useEffect Cleanup Function Returning Value
+
+This repository demonstrates a common, yet subtle, error in React's `useEffect` hook: returning a value from the cleanup function that is not a function or undefined. This can lead to unexpected behavior and make debugging challenging. The incorrect code results in the return value being ignored and possible memory leaks, while the solution provides the correct approach.
